@@ -110,5 +110,7 @@ const setOrganizationIdToBody=asyncHandler(async (req,res,next) =>{
     next();
 });
 
-module.exports={getInventroy,getInventroies,setFilterObj,setFilterObj,getAllUniqueDonors,
+module.exports={getAllUniqueHospitals,getAllOrganizationsForHospital,
+    getAllOrganizationsForDonors,
+    getInventroy,getInventroies,setFilterObj,setFilterObj,getAllUniqueDonors,
     deleteInventroy,createInventroy,updateInventroy,setOrganizationIdToBody,getInventroiesAggregation};
